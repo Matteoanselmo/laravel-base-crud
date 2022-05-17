@@ -16,7 +16,7 @@
                                     <h6 class="card-title">{{$comic->type}}</h6>
                                     <p class="card-text">{{$comic->description}}</p>
                                     <p class="card-text">{{$comic->sale_date}}</p>
-                                    <a href="#" class="btn btn-primary">{{$comic->price}} €</a>
+                                    <a href="{{route('comics.show', $comic->id)}}" class="btn btn-primary">{{$comic->price}} €</a>
                                 </div>
                             </div>
                         </div>
