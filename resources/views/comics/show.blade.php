@@ -5,6 +5,9 @@
         <div class="container-fluid">
             <div class="row ">
                 <h1>List of trains </h1>
+                <a href="{{route('comics.create')}}" class="text-end">
+                    <button class="btn btn-warning">Add Comic</button>
+                </a>
                 <div class="col-12 d-flex justify-content-center">
                     <div class="card mb-2" style="width: 18rem;">
                         <img src="{{$comic->thumb}}" class="card-img-top" alt="{{$comic->title}}">
